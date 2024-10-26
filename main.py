@@ -4,10 +4,6 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 from dotenv import load_dotenv
 
-# os.environ['SPOTIPY_CLIENT_ID'] = 'fe106bbead8c4706aa6dfcc0470cdf9e'
-# os.environ['SPOTIPY_CLIENT_SECRET'] = 'fcc5908106f64a2d9990e42ae664360b'
-# os.environ['SPOTIPY_REDIRECT_URI'] = 'http://localhost:9000'
-
 # Load environment variables from .env file
 load_dotenv()
 
